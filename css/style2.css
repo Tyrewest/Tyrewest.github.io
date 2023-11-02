@@ -1,0 +1,84 @@
+
+
+body {
+    background-color:#a61366;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+
+   float: center;
+
+   margin: 120px 0 0 0;
+
+   width: 70%;
+    background-color:black;
+}
+
+nav a {
+    border: 9px white;
+    padding:25px;
+    background-color:black;
+}
+
+#leftcolumn{
+    float:left;
+    width: 45%;
+    background-color:white;
+	margin: 1%;
+}
+
+
+
+
+a:link {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+article {
+    
+  float: center;
+  padding: 20px;
+  width: 54%;
+  background-color: #ffa200;
+  height: 350px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+	clear:both;
+}
+  
+   main {
+    text-align:center;
+    clear: both;
+
+}
+.borderedImage {
+
+	border: 5px solid black;
+
+	padding: 2px;
+
+	margin: 6px;
+
+}
+
+        
+        
+}
